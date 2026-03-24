@@ -234,15 +234,20 @@ All measures implemented in DAX and trace directly to validated modeling outputs
 ## Repository Structure
 
 ~~~
-cozy-craft-community-analytics/
+cozycraft-attendance-analytics-forecasting/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── powerbi/
-├── images/
-├── sql/
+│   ├── raw/                # Original source files
+│   └── processed/          # Cleaned datasets used for analysis
+│
+├── sql/                    # Data warehouse schema and transformations
+│
+├── notebooks/              # Python analysis and forecasting models
+│
+├── powerbi/                # Dashboard files (.pbix)
+│
+├── images/                 # Dashboard screenshots and visuals
+│
 └── README.md
 ~~~
 
